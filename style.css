@@ -1,3 +1,126 @@
+/* navigation baar style khushi and Priya */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #264653;
+    height: 83px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    font-family: Georgia, serif;
+}
+
+.navbar-logo {
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.navbar-logo > img {
+    height: 50px;
+    /* width: auto; */
+    /* margin: 1px 18px; */
+} 
+
+.nav {
+    line-height: 40px;
+}
+
+.nav > a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+.nav > a:hover {
+color:black;
+/* border-radius: 4px; */
+/* border-color: #ffffff; */
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 650px;
+    background: #636363;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.para{
+    margin: 100px 0px;
+    font-size: 30px;
+    max-width: 500px;
+    color: aliceblue;
+
+}
+.main-img img{
+    margin: 60px;
+border-radius: 20px;
+}
+.service {
+    padding: 1px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;  
+
+}
+.course{
+   
+    height: 650px;
+    
+    background-color:yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-image1 img{
+    margin: 110px 0px 0px 0px;
+    height: 300px;
+    width: 428px;
+    border-radius: 20px;
+    
+
+}
+.course-image2 img{
+    margin: 110px 0px 0px 0px;
+    height: 300px;
+    width: 428px;
+    border-radius: 20px;
+    
+
+}
+.course-image3 img{
+    margin: 110px 0px 0px 0px;
+    height: 300px;
+    width: 428px;
+    border-radius: 20px;
+
+}
+
+.course-image1 h1{
+    text-align: center;
+}
+.course-image2 h1{
+    text-align: center;
+}
+.course-image3 h1{
+    text-align: center;
+}
+.course a{
+    text-decoration: none;
+    color: black;
+}
+
 /* backend style */
 .backend-heading{
     text-align: center;
