@@ -1,0 +1,73 @@
+/* backend style */
+.backend-heading{
+    text-align: center;
+    background-color:black;
+    color: aliceblue;
+    font-style:inherit;
+    padding: 1px;
+    font-size: 20px;
+
+    
+    /* justify-content: center; */
+}
+.backend-courses{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    
+}
+.backend-courses .section1{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+.backend-courses .section2{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+.section1 .box img{
+    margin-top: 30px;
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    
+}
+.section2 .box img{
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    
+
+}
+.section1 .box{
+    margin: 10px 10px;
+    
+}
+.section2 .box{
+    margin: 10px 10px;
+}
+.section1 .box h4{
+    /* margin: 4px 4px; */
+    text-align: center;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    /* font-style: oblique; */
+    
+}
+.section1 .box a{
+    text-decoration: none;
+}
+
+.section2 .box h4{
+    /* margin: 4px 4px; */
+    text-align: center;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    /* font-style: oblique; */
+}
+.section2 .box a{
+    text-decoration: none;
+}
